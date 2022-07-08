@@ -2,7 +2,6 @@ from replit import clear
 import random
 from hangman_art import logo, stages
 from hangman_words import word_list
-import hangman_words 
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
